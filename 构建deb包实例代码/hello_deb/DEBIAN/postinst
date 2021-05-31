@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "......................................................"
+echo "..............hello_deb installing...................."
+echo "......................................................"
+
+systemctl enable hello
+systemctl start hello 
+
+
